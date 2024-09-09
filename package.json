@@ -1,0 +1,19 @@
+{
+  "name": "fullstack_backend_4",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Joona Luttinen",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

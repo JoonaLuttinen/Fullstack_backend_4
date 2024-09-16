@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "title": "video games and aggression",
+    "author": "Tobias Greitemeyer",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/",
+    "likes": 2
+
+}

@@ -1,0 +1,1 @@
+find out express.Router() does in blogs.js: require('express').Router()

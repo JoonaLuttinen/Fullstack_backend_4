@@ -86,9 +86,7 @@ const authorMostLikes = (listOfBlogs) => {
             return sum
         }
     }
-
     listOfLikes = listOfBlogs.reduce(reducerBlogs, {})
-
     entries = Object.entries(listOfLikes)
 
     const reducerLikes = (sum, item) => {
@@ -99,7 +97,6 @@ const authorMostLikes = (listOfBlogs) => {
             return sum
         }
     }
-
     finalResult = entries.reduce(reducerLikes, [0,0])
 
     return {

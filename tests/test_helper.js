@@ -25,4 +25,46 @@ const initialBlogs = [
     }
 ]
 
-module.exports = {initialBlogs}
+const addedBlog = {
+  "title": "video games and aggression",
+  "author": "Tobias Greitemeyer",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/",
+  "likes": 2
+}
+
+const addedBlogWithoutLikes = {
+  "title": "video games and aggression",
+  "author": "Tobias Greitemeyer",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/"
+}
+
+const addedBlogLikesZero = {
+  "title": "video games and aggression",
+  "author": "Tobias Greitemeyer",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/",
+  "likes": 0
+}
+
+const noTitle = {
+
+  "author": "Tobias Greitemeyer",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/",
+  "likes": 2
+
+}
+
+const noUrl = {
+  "title": "video games and aggression",
+  "author": "Tobias Greitemeyer",
+  "likes": 0
+}
+
+const updatedBlog = {
+  "title": "video games and aggression",
+  "author": "Tobias Greitemeyer",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6790614/",
+  "likes": 5
+
+}
+
+module.exports = {initialBlogs, addedBlog, addedBlogWithoutLikes, addedBlogLikesZero, noTitle, noUrl, updatedBlog}
